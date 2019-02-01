@@ -1,0 +1,7 @@
+.user-fullname {
+    font-size: 1.7rem;
+
+    @include respond-to(phone) {
+        text-align: center;
+    }
+}
